@@ -1,10 +1,10 @@
 {
-  "description": "A frontend for Home Assistant",
+  "description": "A frontend for Alea Connect",
   "repository": {
     "type": "git",
-    "url": "https://github.com/home-assistant/frontend"
+    "url": "https://github.com/andreafiumetti/alea-ha-frontend"
   },
-  "name": "home-assistant-frontend",
+  "name": "alea-connect-frontend",
   "version": "1.0.0",
   "scripts": {
     "build": "script/build_frontend",
