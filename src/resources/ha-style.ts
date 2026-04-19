@@ -1,8 +1,8 @@
 import "@polymer/polymer/lib/elements/custom-style";
 import { derivedStyles } from "./styles";
 
-export const DEFAULT_PRIMARY_COLOR = "#03a9f4";
-export const DEFAULT_ACCENT_COLOR = "#ff9800";
+export const DEFAULT_PRIMARY_COLOR = "#0d4f8b";
+export const DEFAULT_ACCENT_COLOR = "#00b4d8";
 
 const documentContainer = document.createElement("template");
 documentContainer.setAttribute("style", "display: none;");
@@ -10,7 +10,7 @@ documentContainer.setAttribute("style", "display: none;");
 documentContainer.innerHTML = `<custom-style>
   <style>
     /*
-      Home Assistant default styles.
+      Alea Connect default styles.
 
       In Polymer 2.0, default styles should to be set on the html selector.
       (Setting all default styles only on body breaks shadyCSS polyfill.)
@@ -29,8 +29,8 @@ documentContainer.innerHTML = `<custom-style>
 
       /* main interface colors */
       --primary-color: ${DEFAULT_PRIMARY_COLOR};
-      --dark-primary-color: #0288d1;
-      --light-primary-color: #b3e5fC;
+      --dark-primary-color: #07325c;
+      --light-primary-color: #7cc5ff;
       --accent-color: ${DEFAULT_ACCENT_COLOR};
       --divider-color: rgba(0, 0, 0, .12);
 
@@ -58,7 +58,7 @@ documentContainer.innerHTML = `<custom-style>
       --label-badge-grey: #9e9e9e;
 
       /* states icon */
-      --state-icon-color: #44739e;
+      --state-icon-color: #0d4f8b;
       /* an error state is anything that would be considered an error */
       /* --state-icon-error-color: #db4437; derived from error-color */
 
@@ -85,8 +85,8 @@ documentContainer.innerHTML = `<custom-style>
       --light-primary-opacity: 1.0;
 
       /* rgb */
-      --rgb-primary-color: 3, 169, 244;
-      --rgb-accent-color: 255, 152, 0;
+      --rgb-primary-color: 13, 79, 139;
+      --rgb-accent-color: 0, 180, 216;
       --rgb-primary-text-color: 33, 33, 33;
       --rgb-secondary-text-color: 114, 114, 114;
       --rgb-text-primary-color: 255, 255, 255;
