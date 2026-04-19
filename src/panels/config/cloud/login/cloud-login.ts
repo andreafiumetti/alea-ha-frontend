@@ -50,11 +50,11 @@ export class CloudLogin extends LitElement {
       <hass-subpage
         .hass=${this.hass}
         .narrow=${this.narrow}
-        header="Home Assistant Cloud"
+        header="Alea Connect Cloud"
       >
         <div class="content">
           <ha-config-section .isWide=${this.isWide}>
-            <span slot="header">Home Assistant Cloud</span>
+            <span slot="header">Alea Connect Cloud</span>
             <div slot="introduction">
               <p>
                 ${this.hass.localize(
@@ -66,11 +66,11 @@ export class CloudLogin extends LitElement {
                   "ui.panel.config.cloud.login.introduction2"
                 )}
                 <a
-                  href="https://www.nabucasa.com"
+                  href="https://www.aleaconnect.it/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Nabu&nbsp;Casa,&nbsp;Inc</a
+                  Alea&nbsp;Connect</a
                 >${this.hass.localize(
                   "ui.panel.config.cloud.login.introduction2a"
                 )}
@@ -82,7 +82,7 @@ export class CloudLogin extends LitElement {
               </p>
               <p>
                 <a
-                  href="https://www.nabucasa.com"
+                  href="https://www.aleaconnect.it/"
                   target="_blank"
                   rel="noreferrer"
                 >

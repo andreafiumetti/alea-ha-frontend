@@ -37,7 +37,7 @@ class DialogCommunity extends LitElement {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://community.home-assistant.io/"
+          href="https://www.aleaconnect.it/"
         >
           <ha-list-item hasMeta graphic="icon">
             <img src="/static/icons/favicon-192x192.png" slot="graphic" />
@@ -48,7 +48,7 @@ class DialogCommunity extends LitElement {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://www.home-assistant.io/newsletter/"
+          href="https://www.aleaconnect.it/"
         >
           <ha-list-item hasMeta graphic="icon">
             <img src="/static/icons/favicon-192x192.png" slot="graphic" />
@@ -61,7 +61,7 @@ class DialogCommunity extends LitElement {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://www.home-assistant.io/join-chat"
+          href="https://www.aleaconnect.it/"
         >
           <ha-list-item hasMeta graphic="icon">
             <img src="/static/images/logo_discord.png" slot="graphic" />
@@ -72,7 +72,7 @@ class DialogCommunity extends LitElement {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://twitter.com/home_assistant"
+          href="https://www.aleaconnect.it/"
         >
           <ha-list-item hasMeta graphic="icon">
             <img src="/static/images/logo_twitter.png" slot="graphic" />
